@@ -29,5 +29,19 @@
 ### \W : Matches one non-alphanumeric character
 ### \Z : Matches an empty string but only at the end of whole string
 ### \\ : Matches one backslash character            
-  
+
+
+# Regular expression objects:
+
+ - .match(string[, pos, endpos]) -> MatchObject
+ - .search(string[, pos, endpos]) -> MatchObject
+ - .findall(string[, pos, endpos]) -> list of strings
+ - .finditer(string[, pos, endpos]) -> iter of MatchObjects
+ - .split(string[, maxsplit]) -> list of strings
+ - .sub(repl, string[, count]) -> string
+ - .subn(repl, string[, count]) -> (string, int)
+ - .flags      # int, Passed to compile()
+ - .groups     # int, Number of capturing groups
+ - .groupindex # {}, Maps group names to ints
+ - .pattern    # string, Passed to compile()  
   
