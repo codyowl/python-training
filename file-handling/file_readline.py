@@ -1,4 +1,4 @@
-file_opener = open("demofile.txt", 'r')
+file_opener = open("newfile2.txt", 'r')
 contents = file_opener.readline()
 
 while contents:

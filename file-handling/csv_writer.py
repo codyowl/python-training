@@ -1,8 +1,8 @@
 import csv
  
-#data = "something"
+# data = "something"
 
-#data = ["something"]
+# data = ["something"]
 
 # data = ['one','two']
 
