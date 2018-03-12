@@ -11,5 +11,5 @@ class Vehicle:
  
 V = Vehicle()
 V.vehicle_type()
-V.__engine_type()
-# V._Vehicle__engine_type()
+# V.__engine_type()
+V._Vehicle__engine_type()

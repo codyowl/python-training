@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 tree = ET.parse('xml_parsing1.xml')
 root = tree.getroot()
 
-print root
+# print root
 
 #printing tag and attribute
 # print root.tag
@@ -10,7 +10,7 @@ print root
 # print root.attrib
 
 # for childrennode in root:
-# 	print childrennode.tag
+#  	print childrennode.tag
 
 # for childrennode in root:
 #     print childrennode.attrib

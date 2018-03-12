@@ -1,8 +1,8 @@
 class College(object):
     def __init__(self):
-        self.course_name = "computer science"    # OK to access directly
-        self._course_name = "computer science"   # should be considered private
-        self.__course_name = "computer science" 
+        self.course_name = "computer science first"    # OK to access directly
+        self._course_name = "computer science second"   # should be considered private
+        self.__course_name = "computer science third" 
 
 
 c = College()
