@@ -1,12 +1,12 @@
 def first_function(arg):
 	return arg
-
+import pdb;
+pdb.set_trace()
 def second_function():
     something = raw_input("enter the name: ")
     return something
 
-# import pdb;
-# pdb.set_trace()
+
 a = 2
 b = 4
 
